@@ -3,43 +3,43 @@
 </h1>
 
 <p align="left">
-    <a href="https://circleci.com/gh/intoli/user-agents/tree/master">
-        <img src="https://img.shields.io/circleci/project/github/intoli/user-agents/master.svg"
+    <a href="https://circleci.com/gh/intoli/user-agents-tea/tree/master">
+        <img src="https://img.shields.io/circleci/project/github/intoli/user-agents-tea/master.svg"
             alt="Build Status"></a>
-    <a href="https://circleci.com/gh/intoli/user-agents/tree/master">
-        <img src="https://img.shields.io/github/last-commit/intoli/user-agents/master.svg"
+    <a href="https://circleci.com/gh/intoli/user-agents-tea/tree/master">
+        <img src="https://img.shields.io/github/last-commit/intoli/user-agents-tea/master.svg"
             alt="Build Status"></a>
-    <a href="https://github.com/intoli/user-agents/blob/master/LICENSE">
+    <a href="https://github.com/intoli/user-agents-tea/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/License-BSD%202--Clause-blue.svg"
             alt="License"></a>
-    <a href="https://www.npmjs.com/package/user-agents">
-        <img src="https://img.shields.io/npm/v/user-agents.svg"
+    <a href="https://www.npmjs.com/package/user-agents-tea">
+        <img src="https://img.shields.io/npm/v/user-agents-tea.svg"
             alt="NPM Version"></a>
     <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-    <a target="_blank" href="https://twitter.com/home?status=User%20Agents%20is%20a%20JavaScript%20module%20for%20generating%20random%20user%20agents%20that's%20updated%20daily%20with%20new%20market%20share%20data.%0A%0Ahttps%3A//github.com/intoli/user-agents">
+    <a target="_blank" href="https://twitter.com/home?status=User%20Agents%20is%20a%20JavaScript%20module%20for%20generating%20random%20user%20agents%20that's%20updated%20daily%20with%20new%20market%20share%20data.%0A%0Ahttps%3A//github.com/intoli/user-agents-tea">
         <img height="26px" src="https://simplesharebuttons.com/images/somacro/twitter.png"
             alt="Tweet"></a>
-    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/intoli/user-agents">
+    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/intoli/user-agents-tea">
         <img height="26px" src="https://simplesharebuttons.com/images/somacro/facebook.png"
             alt="Share on Facebook"></a>
-    <a target="_blank" href="http://reddit.com/submit?url=https%3A%2F%2Fgithub.com%2Fintoli%2Fuser-agents&title=User%20Agents%20-%20Random%20user%20agent%20generation%20with%20daily-updated%20market%20share%20data">
+    <a target="_blank" href="http://reddit.com/submit?url=https%3A%2F%2Fgithub.com%2Fintoli%2Fuser-agents-tea&title=User%20Agents%20-%20Random%20user%20agent%20generation%20with%20daily-updated%20market%20share%20data">
         <img height="26px" src="https://simplesharebuttons.com/images/somacro/reddit.png"
             alt="Share on Reddit"></a>
-    <a target="_blank" href="https://news.ycombinator.com/submitlink?u=https://github.com/intoli/user-agents&t=User%20Agents%20-%20Random%20user%20agent%20generation%20with%20daily-updated%20market%20share%20data">
+    <a target="_blank" href="https://news.ycombinator.com/submitlink?u=https://github.com/intoli/user-agents-tea&t=User%20Agents%20-%20Random%20user%20agent%20generation%20with%20daily-updated%20market%20share%20data">
         <img height="26px" src="media/ycombinator.png"
             alt="Share on Hacker News"></a>
 </p>
 
 
-###### [Installation](#installation) | [Examples](#examples) | [API](#api) | [How it Works](https://intoli.com/blog/user-agents/) | [Contributing](#contributing)
+###### [Installation](#installation) | [Examples](#examples) | [API](#api) | [How it Works](https://intoli.com/blog/user-agents-tea/) | [Contributing](#contributing)
 
-> User-Agents is a JavaScript package for generating random [User Agents](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent) based on how frequently they're used in the wild.
+> user-agents-tea is a JavaScript package for generating random [User Agents](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent) based on how frequently they're used in the wild.
 > A new version of the package is automatically released every day, so the data is always up to date.
 > The generated data includes hard to find browser-fingerprint properties, and powerful filtering capabilities allow you to restrict the generated user agents to fit your exact needs.
 
 Web scraping often involves creating realistic traffic patterns, and doing so generally requires a good source of data.
-The User-Agents package provides a comprehensive dataset of real-world user agents and other browser properties which are commonly used for browser fingerprinting and blocking automated web browsers.
-Unlike other random user agent generation libraries, the User-Agents package is updated automatically on a daily basis.
+The user-agents-tea package provides a comprehensive dataset of real-world user agents and other browser properties which are commonly used for browser fingerprinting and blocking automated web browsers.
+Unlike other random user agent generation libraries, the user-agents-tea package is updated automatically on a daily basis.
 This means that you can use it without worrying about whether the data will be stale in a matter of months.
 
 Generating a realistic random user agent is as simple as running `new UserAgent()`, but you can also easily generate user agents which correspond to a specific platform, device category, or even operating system version.
@@ -48,20 +48,20 @@ The fastest way to get started is to hop down to the [Examples](#examples) secti
 
 ## Installation
 
-The User Agents package is available on npm with the package name [user-agents](https://npmjs.com/package/user-agents).
+The User Agents package is available on npm with the package name [user-agents-tea](https://npmjs.com/package/user-agents-tea).
 You can install it using your favorite JavaScript package manager in the usual way.
 
 ```bash
-# With npm: npm install user-agents
-# With pnpm: pnpm install user-agents
+# With npm: npm install user-agents-tea
+# With pnpm: pnpm install user-agents-tea
 # With yarn:
-yarn add user-agents
+yarn add user-agents-tea
 ```
 
 
 ## Examples
 
-The User-Agents library offers a very flexible interface for generating user agents.
+The user-agents-tea library offers a very flexible interface for generating user agents.
 These examples illustrate some common use cases, and show how the filtering API can be used in practice.
 
 
@@ -72,7 +72,7 @@ It will be automatically populated with a random user agent and browser fingerpr
 
 
 ```javascript
-import UserAgent from 'user-agents';
+import UserAgent from 'user-agents-tea';
 
 
 const userAgent = new UserAgent();
@@ -116,7 +116,7 @@ The `data` property includes a randomly generated browser fingerprint that can b
 By passing an object as a filter, each corresponding user agent property will be restricted based on its values.
 
 ```javascript
-import UserAgent from 'user-agents';
+import UserAgent from 'user-agents-tea';
 
 const userAgent = new UserAgent({ deviceCategory: 'mobile' })
 ```
@@ -131,7 +131,7 @@ There is some computational overhead involved with applying a set of filters, so
 You can call any initialized `UserAgent` instance like a function, and it will generate a new random instance with the same filters (you can also call `userAgent.random()` if you're not a fan of the shorthand).
 
 ```javascript
-import UserAgent from 'user-agents';
+import UserAgent from 'user-agents-tea';
 
 const userAgent = new UserAgent({ platform: 'Win32' });
 const userAgents = Array(1000).fill().map(() => userAgent());
@@ -145,7 +145,7 @@ This code example initializes a single user agent with a filter that limits the 
 You can pass a regular expression as a filter and the generated user agent will be guaranteed to match that regular expression.
 
 ```javascript
-import UserAgent from 'user-agents';
+import UserAgent from 'user-agents-tea';
 
 const userAgent = new UserAgent(/Safari/);
 ```
@@ -160,7 +160,7 @@ The raw `userAgent.data` object will be passed into your function, and it will b
 In this example, we'll use the [useragent](https://www.npmjs.com/package/useragent) package to parse the user agent string and then restrict the generated user agents to iOS devices with an operating system version of 11 or greater.
 
 ```javascript
-import UserAgent from 'user-agents';
+import UserAgent from 'user-agents-tea';
 import { parse } from 'useragent';
 
 const userAgent = new UserAgent((data) => {
@@ -178,7 +178,7 @@ You can also use arrays to specify collections of filters that will all be appli
 This example combines a regular expression filter with an object filter to generate a user agent with a connection type of `wifi`, a platform of `MacIntel`, and a user agent that includes a `Safari` substring.
 
 ```javascript
-import UserAgent from 'user-agents';
+import UserAgent from 'user-agents-tea';
 
 const userAgent = new UserAgent([
   /Safari/,
@@ -285,7 +285,7 @@ You can continue to use older versions of the software, but you'll need to upgra
 ## Acknowledgements
 
 The user agent frequency data used in this library is generously provided by [Intoli](https://intoli.com), the premier residential and smart proxy provider for web scraping.
-The details of how the data is updated can be found in the blog post [User-Agents — A random user agent generation library that's always up to date](https://intoli.com/blog/user-agents/).
+The details of how the data is updated can be found in the blog post [user-agents-tea — A random user agent generation library that's always up to date](https://intoli.com/blog/user-agents-tea/).
 
 If you have a high-traffic website and would like to contribute data to the project, then send us an email at [contact@intoli.com](mailto:contact@intoli.com).
 Additional data sources will help make the library more useful, and we'll be happy to add a link to your site in the acknowledgements.
@@ -298,4 +298,4 @@ Contributions are welcome, but please follow these contributor guidelines outlin
 
 ## License
 
-User-Agents is licensed under a [BSD 2-Clause License](LICENSE) and is copyright [Intoli, LLC](https://intoli.com).
+user-agents-tea is licensed under a [BSD 2-Clause License](LICENSE) and is copyright [Intoli, LLC](https://intoli.com).

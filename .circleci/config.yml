@@ -1,5 +1,5 @@
 defaults: &defaults
-  working_directory: ~/user-agents
+  working_directory: ~/user-agents-tea
   docker:
     - image: cimg/node:21.1
 
@@ -46,14 +46,14 @@ jobs:
           paths:
             - ./node_modules
       - persist_to_workspace:
-          root: ~/user-agents
+          root: ~/user-agents-tea
           <<: *whitelist
 
   lint:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: ~/user-agents
+          at: ~/user-agents-tea
       - restore_cache:
           key: dependency-cache-v2-{{ checksum "yarn.lock" }}
       - run:
@@ -61,14 +61,14 @@ jobs:
           command: |
             yarn lint
       - persist_to_workspace:
-          root: ~/user-agents
+          root: ~/user-agents-tea
           <<: *whitelist
 
   build:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: ~/user-agents
+          at: ~/user-agents-tea
       - restore_cache:
           key: dependency-cache-v2-{{ checksum "yarn.lock" }}
       - run:
@@ -77,14 +77,14 @@ jobs:
             yarn gunzip-data
             yarn build
       - persist_to_workspace:
-          root: ~/user-agents
+          root: ~/user-agents-tea
           <<: *whitelist
 
   test:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: ~/user-agents
+          at: ~/user-agents-tea
       - restore_cache:
           key: dependency-cache-v2-{{ checksum "yarn.lock" }}
       - run:
@@ -96,7 +96,7 @@ jobs:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: ~/user-agents
+          at: ~/user-agents-tea
       - run:
           name: Write NPM Token to ~/.npmrc
           command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
@@ -125,7 +125,7 @@ jobs:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: ~/user-agents
+          at: ~/user-agents-tea
       - restore_cache:
           key: dependency-cache-v2-{{ checksum "yarn.lock" }}
       - run:
@@ -133,23 +133,23 @@ jobs:
           command: |
             yarn update-data
       - store_artifacts:
-          path: ~/user-agents/src/user-agents.json.gz
-          destination: user-agents.json.gz
+          path: ~/user-agents-tea/src/user-agents-tea.json.gz
+          destination: user-agents-tea.json.gz
       - persist_to_workspace:
-          root: ~/user-agents
+          root: ~/user-agents-tea
           <<: *whitelist
 
   publish-new-version:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: ~/user-agents
+          at: ~/user-agents-tea
       - run:
           name: Commit the newly downloaded data
           command: |
-            git add src/user-agents.json.gz
+            git add src/user-agents-tea.json.gz
             # Configure some identity details for the machine deployment account.
-            git config --global user.email "user-agents@intoli.com"
+            git config --global user.email "user-agents-tea@intoli.com"
             git config --global user.name "User Agents"
             git config --global push.default "simple"
             # Disable strict host checking.

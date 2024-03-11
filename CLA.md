@@ -7,9 +7,9 @@ Individual Contributor Exclusive License Agreement
 (including the Traditional Patent License OPTION)
 -------------------------------------------------
 
-Thank you for your interest in contributing to Intoli, LLC's User-Agents ("We" or "Us").
+Thank you for your interest in contributing to Intoli, LLC's user-agents-tea ("We" or "Us").
 
-The purpose of this contributor agreement ("Agreement") is to clarify and document the rights granted by contributors to Us. To make this document effective, please follow the instructions at https://github.com/intoli/user-agents/blob/master/CONTRIBUTING.md.
+The purpose of this contributor agreement ("Agreement") is to clarify and document the rights granted by contributors to Us. To make this document effective, please follow the instructions at https://github.com/intoli/user-agents-tea/blob/master/CONTRIBUTING.md.
 
 ### How to use this Contributor Agreement
 
@@ -123,4 +123,4 @@ Address:
 
 #### Recreate this Contributor License Agreement
 
-[https://contributoragreements.org/ca-cla-chooser/?beneficiary-name=Intoli%2C+LLC&project-name=User-Agents&project-website=https%3A%2F%2Fgithub.com%2Fintoli%2Fuser-agents&project-email=open-source%40intoli.com&process-url=https%3A%2F%2Fgithub.com%2Fintoli%2Fuser-agents%2Fblob%2Fmaster%2FCONTRIBUTING.md&project-jurisdiction=United+States&agreement-exclusivity=exclusive&fsfe-compliance=&fsfe-fla=&outbound-option=no-commitment&outboundlist=&outboundlist-custom=&medialist=\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_&patent-option=Traditional&your-date=&your-name=&your-title=&your-address=&your-patents=&pos=apply&action=](https://contributoragreements.org/ca-cla-chooser/?beneficiary-name=Intoli%2C+LLC&project-name=User-Agents&project-website=https%3A%2F%2Fgithub.com%2Fintoli%2Fuser-agents&project-email=open-source%40intoli.com&process-url=https%3A%2F%2Fgithub.com%2Fintoli%2Fuser-agents%2Fblob%2Fmaster%2FCONTRIBUTING.md&project-jurisdiction=United+States&agreement-exclusivity=exclusive&fsfe-compliance=&fsfe-fla=&outbound-option=no-commitment&outboundlist=&outboundlist-custom=&medialist=____________________&patent-option=Traditional&your-date=&your-name=&your-title=&your-address=&your-patents=&pos=apply&action=)
+[https://contributoragreements.org/ca-cla-chooser/?beneficiary-name=Intoli%2C+LLC&project-name=user-agents-tea&project-website=https%3A%2F%2Fgithub.com%2Fintoli%2Fuser-agents-tea&project-email=open-source%40intoli.com&process-url=https%3A%2F%2Fgithub.com%2Fintoli%2Fuser-agents-tea%2Fblob%2Fmaster%2FCONTRIBUTING.md&project-jurisdiction=United+States&agreement-exclusivity=exclusive&fsfe-compliance=&fsfe-fla=&outbound-option=no-commitment&outboundlist=&outboundlist-custom=&medialist=\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_&patent-option=Traditional&your-date=&your-name=&your-title=&your-address=&your-patents=&pos=apply&action=](https://contributoragreements.org/ca-cla-chooser/?beneficiary-name=Intoli%2C+LLC&project-name=user-agents-tea&project-website=https%3A%2F%2Fgithub.com%2Fintoli%2Fuser-agents-tea&project-email=open-source%40intoli.com&process-url=https%3A%2F%2Fgithub.com%2Fintoli%2Fuser-agents-tea%2Fblob%2Fmaster%2FCONTRIBUTING.md&project-jurisdiction=United+States&agreement-exclusivity=exclusive&fsfe-compliance=&fsfe-fla=&outbound-option=no-commitment&outboundlist=&outboundlist-custom=&medialist=____________________&patent-option=Traditional&your-date=&your-name=&your-title=&your-address=&your-patents=&pos=apply&action=)

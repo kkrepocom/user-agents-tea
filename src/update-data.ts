@@ -11,7 +11,7 @@ import isbot from 'isbot';
 import random from 'random';
 import UAParser from 'ua-parser-js';
 
-import { UserAgentData } from './user-agent';
+import { UserAgentData } from './user-agent-tea';
 
 const ddb = new dynamoose.aws.ddb.DynamoDB({
   region: 'us-east-2',

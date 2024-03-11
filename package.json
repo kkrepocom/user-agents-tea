@@ -1,19 +1,19 @@
 {
-  "name": "user-agents",
-  "version": "2.0.0-alpha.136",
+  "name": "user-agents-tea",
+  "version": "2.0.1",
   "description": "A JavaScript library for generating random user agents. ",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/intoli/user-agents.git"
+    "url": "git+ssh://git@github.com/kkrepocom/user-agents-tea.git"
   },
   "author": "Intoli, LLC <contact@intoli.com>",
   "files": [
     "dist/",
     "src/**/*",
-    "!src/user-agents.json",
-    "!src/user-agents.json.gz"
+    "!src/user-agents-tea.json",
+    "!src/user-agents-tea.json.gz"
   ],
   "exports": {
     "import": "./dist/index.js",
@@ -24,11 +24,11 @@
   "type": "module",
   "scripts": {
     "build": "tsup",
-    "postbuild": "yarn gunzip-data && cp src/user-agents.json dist/",
-    "gunzip-data": "node --loader ts-node/esm src/gunzip-data.ts src/user-agents.json.gz",
+    "postbuild": "yarn gunzip-data && cp src/user-agents-tea.json dist/",
+    "gunzip-data": "node --loader ts-node/esm src/gunzip-data.ts src/user-agents-tea.json.gz",
     "lint": "eslint src/ && prettier --check src/",
     "test": "NODE_ENV=testing mocha --exit --require @babel/register --extensions '.ts, .js'",
-    "update-data": "node --loader ts-node/esm src/update-data.ts src/user-agents.json.gz"
+    "update-data": "node --loader ts-node/esm src/update-data.ts src/user-agents-tea.json.gz"
   },
   "devDependencies": {
     "@babel/cli": "^7.23.0",

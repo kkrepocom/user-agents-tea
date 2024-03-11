@@ -5,7 +5,7 @@ import { defineConfig } from 'tsup';
 const externalJsonPlugin = (): Plugin => ({
   name: 'external-json',
   setup(build) {
-    build.onResolve({ filter: /user-agents\.json$/ }, (args) => {
+    build.onResolve({ filter: /user-agents-tea\.json$/ }, (args) => {
       return {
         path: args.path,
         external: true,
