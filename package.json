@@ -1,6 +1,6 @@
 {
   "name": "user-agents-tea",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A JavaScript library for generating random user agents. ",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
